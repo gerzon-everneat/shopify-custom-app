@@ -21,48 +21,27 @@
 
 ## 3. Use Cases
 
-
-U1. As Admin, I want to see Add custom , when I provide Email as Username and password
-
-U2.	As Customer, I want to Create a message SP
+  U1. As Admin, I want to see Add custom Shipping Logic button
+  U2.	As Admin, I want to Create a shipping rate for a specific customer tag.
+  U3. As 'b2b' tagged customer, I want to see all shipping rates including custom shipping rates for b2b;
+  u4. As no specific tagged customer, I want to show all shipping rates except for b2b shipping rates;
 
 
 ## 4. Project Scope
 
-*Clarify which parts of the problem you intend to solve. It helps reviewers know
-what questions to ask to make sure you are solving for what you say and stops
-discussions from getting sidetracked by aspects you do not intend to handle in
-your design.*
-- Online presence of skilled individual as service provider
-- Rate and write review about service rendered by SP for other customer's reference.
-- Service quotation for customer's budgeting reference.
-- Availability of Service Provider
-- appointment booking conflicts.
-- separate means of communication.
+-custom shipping rates
 
 ### 4.1. In Scope
-
-*Which parts of the problem defined in Sections 1 and 3 will you solve with this
-design?*
-- Creating, retrieving and updating user account
-- Creating, retrieving and updating Service
-- Creating, updating and canceling appointment
-- Adding to and retrieve saved appointment to booking
-- Creating, sending and retrieving Message
-- - Creating, sending and retrieving Reviews
+- Showing b2b custom shipping rates for b2b tagged customers
+- Hide b2b custom shipping rates for on specific tagged customers(regular customer)
 
 ### 4.2. Out of Scope
 
-*Based on your problem description in Sections 1 and 3, are there any aspects
-you are not planning to solve? Do potential expansions or related problems occur
-to you that you want to explicitly say you are not worrying about now? Feel free
-to put anything here that you think your team can't accomplish in the unit, but
-would love to do with more time.*
-- Admin Page
-- Billing
-- Gift Cards and Referal bonus
-- Service provider as Group/Company
-- Ability to manage personnel
+- Discount Line
+- Product Line
+- Cart Line
+
+<-- Below is for developer to answer-->
 
 # 5. Proposed Architecture Overview
 
@@ -91,4 +70,4 @@ where customers enter and submit data. You may want to accompany the mockups
 with some description of behaviors of the page (e.g. “When customer submits the
 submit-dog-photo button, the customer is sent to the doggie detail page”)*
 
-![](images/design_document/16.png)
+
