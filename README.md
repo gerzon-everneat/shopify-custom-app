@@ -41,6 +41,9 @@
 - Product Line
 - Cart Line
 
+### Sample Reference
+<img src = "shipping.png"/>
+
 <-- Below is for developer to answer-->
 
 # 5. Proposed Architecture Overview
